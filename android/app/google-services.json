@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "980426192927",
+    "firebase_url": "https://busapp-5d795.firebaseio.com",
+    "project_id": "busapp-5d795",
+    "storage_bucket": "busapp-5d795.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980426192927:android:be919c9b641d8f816c3d2a",
+        "android_client_info": {
+          "package_name": "com.aldi.busapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980426192927-eomp9v58k5um47sg6cvaiumh6e1tkebk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTGOgd88viggMYu6A0n_lye33UInqKywU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980426192927-eomp9v58k5um47sg6cvaiumh6e1tkebk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
