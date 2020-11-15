@@ -1,3 +1,4 @@
+import 'package:busapp/ui/views/buySeat.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import './views/addTicket.dart';
@@ -18,6 +19,10 @@ class Router {
       case '/productDetails' :
         return MaterialPageRoute(
             builder: (_)=> TicketDetails()
+        ) ;
+      case '/buySeat' :
+        return MaterialPageRoute(
+            builder: (_)=> BuySeat()
         ) ;
       default:
         return MaterialPageRoute(

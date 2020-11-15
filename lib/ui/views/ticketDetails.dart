@@ -1,3 +1,5 @@
+
+
 import 'package:flutter/material.dart';
 import 'package:busapp/core/models/cardModel.dart';
 import 'package:busapp/core/viewmodels/CRUDModel.dart';
@@ -15,7 +17,7 @@ class TicketDetails extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Product Details'),
+        title: Text('Ticket Details'),
         actions: <Widget>[
           IconButton(
             iconSize: 35,
@@ -64,7 +66,22 @@ class TicketDetails extends StatelessWidget {
                 fontStyle: FontStyle.italic,
                 color: Colors.orangeAccent),
           ),
-         
+            RaisedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, '/buySeat');
+            },
+            textColor: Colors.white,
+            padding: const EdgeInsets.all(0.0),
+            child: Container(
+            decoration: const BoxDecoration(
+            color: Colors.greenAccent
+            ),padding: const EdgeInsets.all(10.0),
+              child: const Text(
+              'Buy Now',
+              style: TextStyle(fontSize: 20)
+                ),
+              ),
+            )
         ],
       ),
     );

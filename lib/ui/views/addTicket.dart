@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+  import 'package:flutter/material.dart';
 import 'package:busapp/core/models/cardModel.dart';
 import 'package:provider/provider.dart';
 import '../../core/viewmodels/CRUDModel.dart';
@@ -9,7 +9,6 @@ class AddProduct extends StatefulWidget {
 
 class _AddProductState extends State<AddProduct> {
   final _formKey = GlobalKey<FormState>();
-  String productType = 'Bag';
   String title ;
   String price ;
   String seats ;
